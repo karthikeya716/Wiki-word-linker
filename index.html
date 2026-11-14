@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wiki Word Linker — Privacy Policy</title>
+<style>body{font:17px/1.7 system-ui,sans-serif;color:#23334a;background:#f5f7fb;margin:0}main{max-width:790px;margin:48px auto;padding:48px;background:white;border-radius:16px}h1{font-size:36px;line-height:1.2;letter-spacing:-1px}h2{font-size:22px;margin-top:30px}.label{color:#466b9e;font-size:13px;letter-spacing:2px;font-weight:700}a{color:#2457a7}small{color:#607087}@media(max-width:600px){main{margin:0;padding:26px;border-radius:0}h1{font-size:30px}}</style></head>
+<body><main><div class="label">WIKI WORD LINKER</div><h1>Privacy Policy</h1>
+<small>Effective date: 10 November 2026 · Publisher: Karthikeya</small>
+<p>Wiki Word Linker links detected proper nouns in webpage body text to matching English Wikipedia articles. This policy describes the included Chrome extension, version 1.1.2.</p>
+<h2>Page text and Wikipedia lookups</h2>
+<p>Linking starts off. When you enable it, the extension reads eligible body text on supported HTTP/HTTPS pages and identifies likely proper nouns locally using a bundled English language library. It sends detected names to English Wikipedia’s HTTPS API to check article titles, resolve redirects, and identify disambiguation pages.</p>
+<p>The lookup requests do not include the page address, full page text, complete sentences as a separate field, or website login credentials. They do include the detected names, which may themselves contain personal or sensitive information from pages you visit. Wikipedia also receives ordinary network information such as your IP address. Because names can come from signed-in pages, pause the extension on private websites before enabling linking.</p>
+<h2>Local settings and temporary data</h2>
+<p>The extension stores your on/off preference and excluded website hostnames in Chrome’s local extension storage. It reads the current tab’s hostname to show website controls. It does not create or transmit a browsing-history log, and it does not sync settings through its own service.</p>
+<p>Lookup results are cached in memory to reduce repeated requests. The background cache is limited to 5,000 entries with a 24-hour expiry and can disappear earlier when Chrome stops the background worker. Open pages can also retain lookup results in memory until they are closed or refreshed.</p>
+<h2>Data use and sharing</h2>
+<p>The publisher does not operate an extension backend or receive automated page-text uploads. The extension contains no advertising or analytics. Data is used only to provide the name-linking feature. The publisher does not sell extension user data or use it for advertising, profiling, creditworthiness, or unrelated purposes.</p>
+<p>Detected names are shared with Wikipedia as necessary for article lookup. Wikipedia’s handling and retention of requests is governed by the <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia Privacy Policy</a>. Clicking a link opens a normal Wikipedia webpage, where the site’s normal policies and your browser settings apply.</p>
+<h2>Your controls and deletion</h2>
+<p>Use the popup to turn linking off globally or pause it on a particular hostname. Turning it off removes extension-added links and stops new lookups after the setting is applied; an already-started network request may finish. You can also restrict website access through Chrome’s extension settings.</p>
+<p>Closing or refreshing a page clears its page-level in-memory data. Chrome may stop the background worker and clear its memory. Uninstalling the extension removes its local settings and stops its operation. These actions cannot retract requests already received by Wikipedia.</p>
+<h2>What the extension skips</h2>
+<p>It skips existing links, forms, editable fields, code blocks, supported headings and title markup, breadcrumb trails, and several navigation and interactive elements. These rules and proper-noun detection are approximate. They are not a guarantee that all private or hidden text is excluded; text hidden by a site’s CSS can still be inspected.</p>
+<h2>Support correspondence</h2>
+<p>If you email support, the publisher receives your email address and the information you choose to include. Support messages are used to respond and troubleshoot, may be retained for follow-up, and are not used for advertising or sold. Do not send passwords, payment details, or private page content. You can request deletion of support correspondence by email, subject to any retention needed to meet legal obligations.</p>
+<h2>Policy updates and contact</h2>
+<p>If the extension’s data practices change, this policy will be updated with a new effective date. For questions or support, contact Karthikeya at <a href="mailto:karthikeya716@gmail.com">karthikeya716@gmail.com</a>.</p>
+<p><small>Wiki Word Linker is independent of Wikipedia and the Wikimedia Foundation. The website hosting this policy may maintain access logs under its own policies.</small></p>
+</main></body></html>
